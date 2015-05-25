@@ -10,11 +10,12 @@ namespace Clase2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello world");
-            Console.WriteLine("Press any key to exit");
-            Console.
-            Console.ReadKey();
-            // :v
+            Fibonacci test = new Fibonacci();
+            Console.WriteLine(test.Calcular(10));
+            Console.ReadLine();
+        
         }
+
+      
     }
 }
